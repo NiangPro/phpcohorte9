@@ -1,7 +1,7 @@
 <?php require_once("navbar.php"); ?>
 <div class="container col-md-8 mt-3">
     <h3>Page d'inscription</h3>
-    <form action="" method="post">
+    <form action="inscriptionController.php" method="post">
     <div class="form-group">
             <label for="">Prenom</label>
             <input type="text" name="prenom" class="form-control">
